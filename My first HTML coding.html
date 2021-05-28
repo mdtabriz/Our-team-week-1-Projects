@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="image.png" sizes="16*16">
+	<title>My First HTML Code</title>
+	<style>
+		body {
+			margin: 0;
+			font-family: helvetica, verdana;
+		}
+	</style>
+</head>
+<body bgcolor="#CDEDFF">
+	<table width="90%" border="0" align="right" style="margin-top: 50px;">
+		<tr>
+			<td rowspan="2">
+				<img src="image.png" width="70px" height="80px" alt="HTML"><br>
+				<h2>HTML</h2><br>
+				<p>Welcome to HTML 5 tutorial by kodegod.com.</p><br><br>
+				<small>Follow us on Instagram &copy;kodegod <br>
+				Subscribe to Our Youtube channel</small>
+			</td>
+			<td><h2>Register</h2></td>
+			<td><h2>Login</h2></td>
+		</tr>
+		<tr>
+			<td>
+				<form action="useraccout.php" method="POST">
+					<input type="email" placeholder="email" name="email"><br><br>
+					<input type="tell" placeholder="mobile" name="phone"><br><br>
+					<input type="date" name="date"><br><br>
+					<select name="subject">
+						<option value="">Select Subject</option>
+						<option value="subjects">C Programming.</option>
+						<option value="subjects">C++ Programming</option>
+						<option value="subjects">Java Programming</option>
+						<option value="subjects">JavaScript Programming</option>
+						<option value="subjects">Python Programming</option>
+					</select><br><br>
+					<input type="password" placeholder="password" name="password"><br><br>
+
+					<input type="submit" name="submit" value="Register">
+				</form>
+			</td>
+			<td valign="top">
+				<form action="useraccount.php" method="POST">
+					<input type="text" placeholder="email / mobile" name="email"><br><br>
+					<input type="password" placeholder="password" name="pass"><br><br>
+
+					<input type="submit" name="login" value="Login">
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<video src="video.mp4" loop="" autoplay="" muted="" width="100%"></video>
+</body>
+</html>
